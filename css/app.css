@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(195, 195, 195);
+}
+.container{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+  
+    
+}
+
+.back-white{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    height: 400px;
+    border-radius: 10px;
+}
+.main{
+    transform: translateX(-430px);
+}
+
+
+form input{
+    padding: 5px 20px;
+    outline: none;
+    outline-style: solid 2px  dodgerblue;
+}
+form input::placeholder{
+    font-size: 17px;
+}
+form button{
+    padding: 5px;
+    width: 90px;
+    background-color: seagreen;
+    border: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    padding-top: 3px;
+    color: white;
+}
+.container h1{
+    font-size: 44px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    background-color: rgb(210, 209, 209);
+    width: 353px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.check_content{
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    justify-content: center;
+    margin:0 auto;
+    text-align: center;
+    margin-left: 520px;
+}
+.btns button{
+    border: 0;
+    width: 70px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btns .edit{
+    background-color: orange;
+    color: white;
+}
+.btns .del{
+    background-color: tomato;
+    color: white;
+}
+.footer{
+    background-color: dodgerblue;
+    color: white;
+    width: 495px;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
